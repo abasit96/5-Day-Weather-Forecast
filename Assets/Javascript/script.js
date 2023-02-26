@@ -6,7 +6,6 @@ $(document).ready(function () {
         fetch(queryURL).then(response => {
             return response.json();
         })
-        })
         .then(data => {
             
             var date = new Date();
@@ -29,6 +28,7 @@ $(document).ready(function () {
             return fetch(fiveDay).then(response => {
                 return response.json();
             })
+        })    
             .then(data => {
                 console.log(data);
 
@@ -119,9 +119,8 @@ $(document).ready(function () {
         .catch(
             error => console.log('ERROR')
         )
-    });
+ 
 });
-
 
 
 // function saveCity() {
