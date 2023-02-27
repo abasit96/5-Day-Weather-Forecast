@@ -14,10 +14,10 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-light" style="background-color: #e3f2fd;"">
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
             <h1>5 Day Weather Forecast</h1>
-          </nav>
-              </header>
+        </nav>
+    </header>
     <main>
         <div class=" container">
             <div class="row">
@@ -47,74 +47,116 @@
                         <h3>5-Day Forecast:</h3>
                     </div>
 
-                    <div class="container">
-                        <div class="row">
+                    <div class="container" id="cards">
+                        <div class="row" style="justify-content: space-between;">
                             <div class="col-md-2">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card 1</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <h5 id="day-1"></h5>
+                                        <div>
+                                            Temp:
+                                        </div>
+                                        <div>
+                                            Wind:
+                                        </div>
+                                        <div>
+                                            Humidity:
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card 2</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <h5 id="day-2"></h5>
+                                        <div>
+                                            Temp:
+                                        </div>
+                                        <div>
+                                            Wind:
+                                        </div>
+                                        <div>
+                                            Humidity:
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card 2</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <h5 id="day-3"></h5>
+                                        <div>
+                                            Temp:
+                                        </div>
+                                        <div>
+                                            Wind:
+                                        </div>
+                                        <div>
+                                            Humidity:
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card 2</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <h5 id="day-4"></h5>
+                                        <div>
+                                            Temp:
+                                        </div>
+                                        <div>
+                                            Wind:
+                                        </div>
+                                        <div>
+                                            Humidity:
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card 2</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the</p>
-                                        <a href="#" class="btn btn-primary">Read More</a>
+                                        <h5 id="day-5"></h5>
+                                        <div>
+                                            Temp:
+                                        </div>
+                                        <div>
+                                            Wind:
+                                        </div>
+                                        <div>
+                                            Humidity:
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
-                        >
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div>
+
+
+
+                    </div>
+
+
                 </div>
-            </div>
-            <div>
-
-
-
-            </div>
-
-
-            </div>
-            </main>
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-                integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
-            <!-- CDN example (jsDelivr) -->
-            <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/advancedFormat.js"></script>
-            <script>dayjs.extend(window.dayjs_plugin_advancedFormat)</script>
-            <script src="./Assets/JavaScript/script.js"></script>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+        integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+    <!-- CDN example (jsDelivr) -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/advancedFormat.js"></script>
+    <script>dayjs.extend(window.dayjs_plugin_advancedFormat)</script>
+    <script src="./Assets/JavaScript/script.js"></script>
 </body>
 
 </html>
