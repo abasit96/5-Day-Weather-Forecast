@@ -39,7 +39,7 @@ $(document).ready(function () {
                 var iconOne = $("#emoji-1");
                 var iconOneSrc = "http://openweathermap.org/img/wn/" + data.list[3].weather[0].icon + ".png"
 
-                var tempOne = $("#current-temp-1");
+                var tempOne = $("#temp-1");
                 var windOne = $("#wind-1");
                 var humidityOne = $("#humidity-1");
 
@@ -54,7 +54,7 @@ $(document).ready(function () {
                 var dayTwo = $("#date-2");
                 var iconTwo = $("#emoji-2");
                 var iconTwoSrc = "http://openweathermap.org/img/wn/" + data.list[11].weather[0].icon + ".png"
-                var tempTwo = $("#current-temp-2");
+                var tempTwo = $("#temp-2");
                 var windTwo = $("#wind-2");
                 var humidityTwo = $("#humidity-2");
 
@@ -69,7 +69,7 @@ $(document).ready(function () {
                 var dayThree = $("#date-3");
                 var iconThree = $("#emoji-3");
                 var iconThreeSrc = "http://openweathermap.org/img/wn/" + data.list[19].weather[0].icon + ".png"
-                var tempThree = $("#current-temp-3");
+                var tempThree = $("#temp-3");
                 var windThree = $("#wind-3");
                 var humidityThree = $("#humidity-3");
 
@@ -84,7 +84,7 @@ $(document).ready(function () {
                 var dayFour = $("#date-4");
                 var iconFour = $("#emoji-4");
                 var iconFourSrc = "http://openweathermap.org/img/wn/" + data.list[27].weather[0].icon + ".png"
-                var tempFour = $("#current-temp-4");
+                var tempFour = $("#temp-4");
                 var windFour = $("#wind-4");
                 var humidityFour = $("#humidity-4");
 
@@ -99,7 +99,7 @@ $(document).ready(function () {
                 var dayFive = $("#date-5");
                 var iconFive = $("#emoji-5");
                 var iconFiveSrc = "http://openweathermap.org/img/wn/" + data.list[35].weather[0].icon + ".png"
-                var tempFive = $("#current-temp-5");
+                var tempFive = $("#temp-5");
                 var windFive = $("#wind-5");
                 var humidityFive = $("#humidity-5");
 
