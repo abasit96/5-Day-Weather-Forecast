@@ -35,4 +35,4 @@ THEN the saved events persist
 ```
 
 ## Screenshots
-![Screenshot](https://raw.githubusercontent.com/abasit96/My-Work-Day-Scheduler/main/Assets/images/Scheduler.png)
+![Screenshot](https://github.com/abasit96/5-Day-Weather-Forecast/blob/main/Assets/Images/Screenshot%20Weather%20Forecast.png)
