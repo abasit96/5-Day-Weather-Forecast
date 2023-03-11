@@ -32,8 +32,6 @@
                     </div>
                     <div>
                         <div id="searchHistoryContainer" class="d-grid gap-2 mt-4">
-                            <!-- <button class="btn btn-primary" type="button">Carteret</button>
-                            <button class="btn btn-primary" type="button">Newark</button> -->
                         </div>
                     </div>
                 </div>
@@ -53,11 +51,12 @@
                     </div>
 
                     <div class="container" id="cards">
-                        <div class="row" style="justify-content: space-between;">
+                        <div class="row" id="boxes" style="justify-content: center;">
                             <div class="col-md-2">
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 id="date-1"></h5>
+                                        <div id="emoji-1"></div>
                                         <div>
                                             Temp: <div id="temp-1"></div>
                                         </div>
@@ -75,6 +74,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 id="date-2"></h5>
+                                        <div id="emoji-2"></div>
                                         <div>
                                             Temp: <div id="temp-2"></div>
                                         </div>
@@ -92,6 +92,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 id="date-3"></h5>
+                                        <div id="emoji-3"></div>
                                         <div>
                                             Temp: <div id="temp-3"></div>
                                         </div>
@@ -109,6 +110,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 id="date-4"></h5>
+                                        <div id="emoji-4"></div>
                                         <div>
                                             Temp: <div id="temp-4"></div>
                                         </div>
@@ -126,6 +128,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 id="date-5"></h5>
+                                        <div id="emoji-5"></div>
                                         <div>
                                             Temp: <div id="temp-5"></div>
                                         </div>
@@ -139,25 +142,24 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
-                    <div>
-
-
-
-                    </div>
-
-
                 </div>
+            </div>
+        </div>
+        <div>
+
+
+
+        </div>
+
+
+        </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
         integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
-    <!-- CDN example (jsDelivr) -->
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/advancedFormat.js"></script>
     <script>dayjs.extend(window.dayjs_plugin_advancedFormat)</script>
