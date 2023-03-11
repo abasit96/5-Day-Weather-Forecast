@@ -1,5 +1,5 @@
 # 5-Day-Weather-Forecast
-A simple 5 Day Weather application that allows a user to save recently searched cities and to access information on wind speed, temperature, and humidity.
+A simple 5-Day Weather application that allows a user to save recently searched cities and to access information on wind speed, temperature, and humidity.
 
 ## Deployed Application
 
